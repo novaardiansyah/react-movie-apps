@@ -1,4 +1,5 @@
-                                                                                  
+/* ==== colors ==== */
+
 $colors: (
   cl-dark: rgba(53, 59, 72, 1),
   cl-dark-1: rgba(47, 54, 64, 1),
@@ -21,7 +22,21 @@ $colors: (
   cl-yellow: rgba(251, 197, 49, 1),
   cl-yellow-1: rgba(225, 177, 44, 1),
   cl-purple: rgba(156, 136, 255, 1),
-  cl-purple-1: rgba(140, 122, 230, 1)
+  cl-purple-1: rgba(140, 122, 230, 1),
+);
+
+/* ==== fonts ==== */
+$fonts: (
+  'Poppins':
+    'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap',
+  'Open Sans':
+    'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap',
+  'Kanit':
+    'https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600;900&display=swap',
+  'Lora':
+    'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap',
+  'Crimson Text':
+    'https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap',
 );
 
 /**
@@ -33,11 +48,3 @@ $colors: (
     * "Lora"         = [ 4, 5, 6]
     * "Crimson Text" = [ 4, 6, 7]
 **/
-
-$fonts: (
- "Poppins"     : 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap',
- "Open Sans"   : 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap',
- "Kanit"       : 'https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600;900&display=swap',
- "Lora"        : 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap',
- "Crimson Text": 'https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap',
-);

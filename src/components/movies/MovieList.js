@@ -20,12 +20,12 @@ export default function MovieList({ title, fetchUrl }) {
   const baseImageUrl = 'https://image.tmdb.org/t/p/original'
 
   return (
-    <div className="row justify-content-center">
+    <div className="row justify-content-center mb-3">
       <div className="col-md-10 col-lg-8">
         <h3 className="movie__title">{title}</h3>
       </div>
 
-      <div className="col-md-10 col-lg-8 d-flex flex-row overflow-scroll">
+      <div className="col-md-10 col-lg-8 p-2 d-flex flex-row overflow-scroll">
         {movies.map((movie) => (
           <img
             src={`${baseImageUrl}/${movie.poster_path}`}
