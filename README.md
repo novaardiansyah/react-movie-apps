@@ -18,6 +18,11 @@ equipped with preview trailers feature makes this application even better.
 
 You can contribute to this site by submitting pull request.
 
+### Preview
+
+you can see the results of this repo through a <a href="https://netflix-clone-v1-ec37d.web.app/">live demo</a>,
+hopefully you like it.
+
 ### Status
 
 <p>
