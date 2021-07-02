@@ -1,0 +1,16 @@
+.banner {
+  background-position: center center;
+  background-size: cover;
+  height: 448px;
+  object-fit: contain;
+  text-shadow: .75px .75px #111;
+  
+  .banner__contents {
+    height: 198px;
+    
+    .banner__title {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+  }
+}

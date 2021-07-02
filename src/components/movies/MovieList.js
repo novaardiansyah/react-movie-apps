@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import '../../assets/scss/components/movies/MovieList.scss'
 
 // static
-import { axiosInstance } from '../static/axios'
+import { axiosInstance, properties } from '../static/axios'
 
 export default function MovieList({ title, fetchUrl, isLarge }) {
   const [movies, setMovies] = useState([])
@@ -17,18 +17,18 @@ export default function MovieList({ title, fetchUrl, isLarge }) {
     getMovies()
   }, [fetchUrl])
 
-  const baseImageUrl = 'https://image.tmdb.org/t/p/original'
-  
   return (
     <div className="row justify-content-center mb-3">
-      <div className="col-md-10 col-lg-8">
+      <div className="col-lg-8">
         <h3 className="movie__title">{title}</h3>
       </div>
 
-      <div className="col-md-10 col-lg-8 p-2 d-flex flex-row overflow-scroll">
+      <div className="col-lg-8 p-2 d-flex flex-row overflow-scroll">
         {movies.map((movie) => (
           <img
-            src={`${baseImageUrl}/${isLarge ? movie.poster_path : movie.backdrop_path}`}
+            src={`${properties.baseImageUrl}/${
+              isLarge ? movie.poster_path : movie.backdrop_path
+            }`}
             alt={movie.name}
             key={movie.id}
             className={`movie__poster me-2 ${isLarge ? 'is-large' : ''}`}

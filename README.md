@@ -29,6 +29,9 @@ hopefully you like it.
   <a href="#" _target="blank">
     <img src="https://img.shields.io/badge/stages-development-informational">
   </a>
+  <a href="https://github.com/novaardiansyah/react-movie-apps/blob/netflix-clone-v1/references.json" _target="blank">
+    <img src="https://img.shields.io/badge/information-references-informational">
+  </a>
   <a href="#" _target="blank">
     <img src="https://img.shields.io/github/repo-size/novaardiansyah/react-movie-apps?label=size&color=informational" />
   </a>
