@@ -12,7 +12,8 @@
 }
 
 body {
-  /* @include m.darkTheme(); */
+  background: #111;
+  color: map-get(v.$colors, cl-light);
   font-family: 'Open Sans', sans-serif;
 }
 
