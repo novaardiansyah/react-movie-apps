@@ -31,7 +31,7 @@ export default function Banner() {
   return (
     <header className="banner mb-3" style={styleBanner}>
       <div className="banner__contents mx-3">
-        <h1 className="banner__title fs-1 mb-3">{movie?.title || movie?.name || movie?.original_name}</h1>
+        <h1 className="banner__title fs-1">{movie?.title || movie?.name || movie?.original_name}</h1>
 
         <div className="banner__button-group mb-3">
           <button className="btn banner__button-group-item px-4 me-2">play</button>
@@ -44,6 +44,8 @@ export default function Banner() {
           { truncate(movie?.overview, 100) }
         </p>
       </div>
+      
+      <div className="banner__fadeBackground" />
     </header>
   )
 }

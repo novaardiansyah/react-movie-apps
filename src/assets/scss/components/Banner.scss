@@ -6,7 +6,7 @@
   text-shadow: .65px .65px #000;
   
   .banner__contents {
-    height: 190px;
+    height: 190px !important;
     padding-top: 140px !important;
     
     .banner__title {
@@ -20,6 +20,16 @@
     }
   }
   
+  .banner__fadeBackground {
+    height: 16.15rem;
+    background: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, .61),
+      #111
+    );
+  }
+  
   .banner__button-group {
     .banner__button-group-item {
       cursor: pointer;
@@ -31,8 +41,8 @@
       transition: all .3s ease-out;
       
       &:hover {
-        background: #fff;
-        color: rgba(51, 51, 51, 1);
+        background: #e6e;
+        color: #000;
         border: none !important;
         outline: none !important;
         box-shadow: none;
