@@ -19,8 +19,7 @@ You can contribute to this site by submitting pull request.
 
 ### Preview
 
-to be able to see a preview / demo of the application, please go to the
-respective project branch concerned.
+to be able to see a preview / demo of the application, please see the list of projects below.
 
 ### Project List
 <ul>
