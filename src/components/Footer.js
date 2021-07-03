@@ -71,12 +71,12 @@ export default function Footer() {
       </div>
 
       <div className="copyright position-absolute bottom-0 w-100">
-        <div class="d-flex py-3 flex-column justify-content-center align-items-center">
+        <div className="d-flex py-3 flex-column justify-content-center align-items-center">
           <p className="py-0 my-0">
             Copyright &copy; 2021 by&nbsp;
             <a
               href="https://www.instagram.com/novaardiansyah._/"
-              class="fw-bold text-white"
+              className="fw-bold text-white"
             >
               Nova Ardiansyah
             </a>

@@ -7,6 +7,5 @@ export const requests = {
   actionMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=28`,
   comedyMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=35`,
   horrorMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=27`,
-  romanceMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=10749`,
-  documentaries: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=99`,
+  romanceMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=10749`
 }

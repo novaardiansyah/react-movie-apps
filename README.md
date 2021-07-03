@@ -23,6 +23,8 @@ You can contribute to this site by submitting pull request.
 you can see the results of this repo through a <a href="https://netflix-clone-v1-ec37d.web.app/">live demo</a>,
 hopefully you like it.
 
+it may take longer to demonstrate the website the first time, please be patient and it will all show up soon.
+
 ### Status
 
 <p>
