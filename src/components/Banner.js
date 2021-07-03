@@ -4,6 +4,8 @@ import '../assets/scss/components/Banner.scss'
 // static
 import { axiosInstance, properties } from './static/axios'
 import { requests } from './static/requests'
+/* ==== components ==== */
+import Navbar from './Navbar'
 
 export default function Banner() {
   const [movie, setMovie] = useState([])
@@ -30,6 +32,7 @@ export default function Banner() {
   
   return (
     <header className="banner mb-3" style={styleBanner}>
+      <Navbar />
       <div className="banner__contents mx-3">
         <h1 className="banner__title fs-1">{movie?.title || movie?.name || movie?.original_name}</h1>
 

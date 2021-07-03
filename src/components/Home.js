@@ -18,14 +18,12 @@ export default function Home() {
           isLarge
         />
         <MovieList title="Trending" fetchUrl={requests.trending} />
-        {/*
-          <MovieList title="Top Rated" fetchUrl={requests.topRated} />
-          <MovieList title="Action Movies" fetchUrl={requests.actionMovies} />
-          <MovieList title="Comedy Movies" fetchUrl={requests.comedyMovies} />
-          <MovieList title="Horror Movies" fetchUrl={requests.horrorMovies} />
-          <MovieList title="Romance Movies" fetchUrl={requests.romanceMovies} />
-          <MovieList title="Documentaries" fetchUrl={requests.documentaries} />
-        */}
+        <MovieList title="Top Rated" fetchUrl={requests.topRated} />
+        <MovieList title="Action Movies" fetchUrl={requests.actionMovies} />
+        <MovieList title="Comedy Movies" fetchUrl={requests.comedyMovies} />
+        <MovieList title="Horror Movies" fetchUrl={requests.horrorMovies} />
+        <MovieList title="Romance Movies" fetchUrl={requests.romanceMovies} />
+        <MovieList title="Documentaries" fetchUrl={requests.documentaries} />
       </div>
     </>
   )

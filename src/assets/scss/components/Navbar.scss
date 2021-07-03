@@ -1,0 +1,18 @@
+.navbar {
+  transition: all .5s ease-in;
+  
+  &.navbarDark {
+    background: #111;
+    opacity: .93;
+  }
+  
+  .nav__logo-netflix {
+    width: 80px;
+    object-fit: contain;
+  }
+  
+  .nav__logo-profile {
+    width: 35px;
+    object-fit: contain;
+  }
+}
