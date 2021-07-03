@@ -22,6 +22,15 @@ You can contribute to this site by submitting pull request.
 to be able to see a preview / demo of the application, please go to the
 respective project branch concerned.
 
+### Project List
+<ul>
+  <li>
+    <a href="https://github.com/novaardiansyah/react-movie-apps/tree/netflix-clone-v1" _target="blank">
+      Netflix Clone v1
+    </a>
+  </li>
+</ul>
+
 ### Status
 
 <p>
