@@ -23,20 +23,26 @@ export default function Banner() {
   const styleBanner = {
     background: `url(${properties.baseImageUrl}/${movie?.backdrop_path})`,
   }
-
+  
+  const truncate = (str, n) => {
+    return str?.length > n ? str.substr(0, n - 1) + '....' : str
+  }
+  
   return (
     <header className="banner mb-3" style={styleBanner}>
-      <div className="banner__contents ms-3 pt-3">
-        <h3 className="mb-2 banner__title">{movie?.title || movie?.name || movie?.original_name}</h3>
+      <div className="banner__contents mx-3">
+        <h1 className="banner__title fs-1 mb-3">{movie?.title || movie?.name || movie?.original_name}</h1>
 
-        <div className="banner__button-group">
-          <button className="btn banner__button-group-item">play</button>
-          <button className="btn banner__button-group-item">
+        <div className="banner__button-group mb-3">
+          <button className="btn banner__button-group-item px-4 me-2">play</button>
+          <button className="btn banner__button-group-item px-4">
             my list
           </button>
         </div>
 
-        <p className="fw-bold banner_description">{movie?.overview}</p>
+        <p className="fs-6 lh-md fw-bold banner__description">
+          { truncate(movie?.overview, 100) }
+        </p>
       </div>
     </header>
   )
