@@ -6,13 +6,6 @@ management application.
 there are basic features in the applications that are here such as reviews,
 watching trailers, and ratings.
 
-### Environment
-
-<ul>
-  <li><a href="#" _target="blank">React</a></li>
-  <li><a href="https://www.themoviedb.org/" _target="blank">TMDB API</a></li>
-</ul>
-
 ### Contributing
 
 You can contribute to this site by submitting pull request.
