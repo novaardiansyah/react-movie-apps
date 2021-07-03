@@ -3,6 +3,7 @@ import React from 'react'
 import { requests } from './static/requests'
 /* ==== components ==== */
 import Banner from './Banner'
+import Footer from './Footer'
 // movies
 import MovieList from './movies/MovieList'
 
@@ -11,7 +12,7 @@ export default function Home() {
     <>
       <Banner />
       
-      <div className="container mb-5">
+      <div className="container">
         <MovieList
           title="NETFLIX ORIGINALS"
           fetchUrl={requests.netflixOriginals}
@@ -25,6 +26,8 @@ export default function Home() {
         <MovieList title="Romance Movies" fetchUrl={requests.romanceMovies} />
         <MovieList title="Documentaries" fetchUrl={requests.documentaries} />
       </div>
+      
+      <Footer />
     </>
   )
 }
