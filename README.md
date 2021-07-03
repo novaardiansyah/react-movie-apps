@@ -35,4 +35,7 @@ to be able to see a preview / demo of the application, please see the list of pr
   <a href="https://github.com/novaardiansyah/react-movie-apps/blob/main/LICENSE" _target="blank">
     <img src="https://img.shields.io/github/license/novaardiansyah/react-movie-apps?label=license&color=informational" />
   </a>
+  <a href="https://github.com/novaardiansyah/react-movie-apps/commits/main" _target="blank">
+    <img src="https://img.shields.io/github/last-commit/novaardiansyah/react-movie-apps/main?color=informational" />
+  </a>
 </p>
