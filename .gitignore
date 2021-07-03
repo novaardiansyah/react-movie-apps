@@ -39,3 +39,6 @@ yarn-error.log*
 # backup files
 *public/backup/
 .replit*
+
+# firebase
+*.firebase/
