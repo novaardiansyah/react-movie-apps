@@ -36,7 +36,7 @@ export default function Banner() {
   return (
     <header className="banner mb-3" style={styleBanner}>
       <Navbar />
-      <div className="banner__contents mx-3">
+      <div className="banner__contents container">
         <h1 className="banner__title fs-1">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
