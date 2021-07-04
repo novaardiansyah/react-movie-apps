@@ -30,7 +30,7 @@ it may take longer to demonstrate the website the first time, please be patient 
 
 <p>
   <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/stages-development-informational">
+    <img src="https://img.shields.io/badge/stages-production-informational">
   </a>
   <a href="https://github.com/novaardiansyah/react-movie-apps/blob/netflix-clone-v1/references.json" target="_blank">
     <img src="https://img.shields.io/badge/information-references-informational">
