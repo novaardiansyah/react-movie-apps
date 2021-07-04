@@ -32,16 +32,16 @@ it may take longer to demonstrate the website the first time, please be patient 
   <a href="#" target="_blank">
     <img src="https://img.shields.io/badge/stages-production-informational">
   </a>
-  <a href="https://github.com/novaardiansyah/react-movie-apps/blob/netflix-clone-v1/references.json" target="_blank">
+  <a href="https://github.com/novaardiansyah/responsive-movie-apps/blob/netflix-clone-v1/references.json" target="_blank">
     <img src="https://img.shields.io/badge/information-references-informational">
   </a>
   <a href="#" target="_blank">
-    <img src="https://img.shields.io/github/repo-size/novaardiansyah/react-movie-apps?label=size&color=informational" />
+    <img src="https://img.shields.io/github/repo-size/novaardiansyah/responsive-movie-apps?label=size&color=informational" />
   </a>
-  <a href="https://github.com/novaardiansyah/react-movie-apps/blob/netflix-clone-v1/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/novaardiansyah/react-movie-apps?label=license&color=informational" />
+  <a href="https://github.com/novaardiansyah/responsive-movie-apps/blob/netflix-clone-v1/LICENSE" target="_blank">
+    <img src="https://img.shields.io/github/license/novaardiansyah/responsive-movie-apps?label=license&color=informational" />
   </a>
-  <a href="https://github.com/novaardiansyah/react-movie-apps/commits/netflix-clone-v1" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/novaardiansyah/react-movie-apps/netflix-clone-v1?color=informational" />
+  <a href="https://github.com/novaardiansyah/responsive-movie-apps/commits/netflix-clone-v1" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/novaardiansyah/responsive-movie-apps/netflix-clone-v1?color=informational" />
   </a>
 </p>
