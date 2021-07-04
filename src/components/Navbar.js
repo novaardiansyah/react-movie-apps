@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react'
+
 // style
 import '../assets/scss/components/Navbar.scss'
+
 // images
 import defaultProfile from '../assets/default-profile.png'
 import netflixLogoPms from '../assets/Netflix_Logo_PMS.png'
 
 export default function Navbar() {
-  // state
   const [navbarDark, setNavbarDark] = useState(false)
 
-  // effect
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 50) return setNavbarDark(true)
