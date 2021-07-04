@@ -32,11 +32,17 @@ export default function Navbar() {
           alt="netflix logo"
           className="nav__logo-netflix shadow"
         />
-        <img
-          src={defaultProfile}
-          alt="default profile"
-          className="nav__logo-profile rounded-circle shadow"
-        />
+        <a 
+          href="https://www.instagram.com/novaardiansyah._/" 
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={defaultProfile}
+            alt="default profile"
+            className="nav__logo-profile rounded-circle shadow"
+          />
+        </a>
       </div>
     </nav>
   )

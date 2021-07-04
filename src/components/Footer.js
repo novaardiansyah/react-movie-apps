@@ -1,10 +1,25 @@
 import React from 'react'
+import Swal from 'sweetalert2'
+
 // style
 import '../assets/scss/components/Footer.scss'
+
 // images
 import netflixLogoPms from '../assets/Netflix_Logo_PMS.png'
 
 export default function Footer() {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    
+    Swal.fire({
+      text: `We're sorry, we don't accept messages on the demo website.`,
+      icon: 'warning',
+      timer: 5000,
+      confirmButtonText: 'Close',
+      confirmButtonColor: 'rgba(53, 59, 72, 1)',
+    })
+  }
+  
   return (
     <footer className="bg-dark pb-5 position-relative">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -20,7 +35,7 @@ export default function Footer() {
           <div className="col-md-6 mb-5">
             <h4 className="fs-4 footer__title mb-3">Contact Me:</h4>
 
-            <form>
+            <form method="post" onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label className="form-label" htmlFor="name">
                   Full Name:
@@ -40,7 +55,7 @@ export default function Footer() {
                 <textarea rows="4" className="form-control"></textarea>
               </div>
 
-              <button className="btn btn-primary">
+              <button type="submit" className="btn btn-primary">
                 <i className="fas fa-fw fa-paper-plane"></i>
                 send messages
               </button>
@@ -77,6 +92,8 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/novaardiansyah._/"
               className="fw-bold text-white"
+              target="_blank"
+              rel="noreferrer"
             >
               Nova Ardiansyah
             </a>
