@@ -1,4 +1,4 @@
-## React Movie Apps
+## Responsive Movie Apps
 
 This repo contains a collection of projects themed around a simple Movie
 management application.
@@ -17,7 +17,7 @@ to be able to see a preview / demo of the application, please see the list of pr
 ### Project List
 <ul>
   <li>
-    <a href="https://github.com/novaardiansyah/react-movie-apps/tree/netflix-clone-v1" _target="blank">
+    <a href="https://github.com/novaardiansyah/responsive-movie-apps/tree/netflix-clone-v1" target="_blank">
       Netflix Clone v1
     </a>
   </li>
@@ -26,16 +26,16 @@ to be able to see a preview / demo of the application, please see the list of pr
 ### Status
 
 <p>
-  <a href="#" _target="blank">
+  <a href="#" target="_blank">
     <img src="https://img.shields.io/badge/stages-production-informational">
   </a>
-  <a href="#" _target="blank">
-    <img src="https://img.shields.io/github/repo-size/novaardiansyah/react-movie-apps?label=size&color=informational" />
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/github/repo-size/novaardiansyah/responsive-movie-apps?label=size&color=informational" />
   </a>
-  <a href="https://github.com/novaardiansyah/react-movie-apps/blob/main/LICENSE" _target="blank">
-    <img src="https://img.shields.io/github/license/novaardiansyah/react-movie-apps?label=license&color=informational" />
+  <a href="https://github.com/novaardiansyah/responsive-movie-apps/blob/main/LICENSE" target="_blank">
+    <img src="https://img.shields.io/github/license/novaardiansyah/responsive-movie-apps?label=license&color=informational" />
   </a>
-  <a href="https://github.com/novaardiansyah/react-movie-apps/commits/main" _target="blank">
-    <img src="https://img.shields.io/github/last-commit/novaardiansyah/react-movie-apps/main?color=informational" />
+  <a href="https://github.com/novaardiansyah/responsive-movie-apps/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/novaardiansyah/responsive-movie-apps/main?color=informational" />
   </a>
 </p>
